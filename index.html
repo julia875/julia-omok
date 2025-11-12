@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오목 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>오목 게임</h1>
+        <div class="game-info">
+            <div class="current-player">
+                <span>현재 차례: </span>
+                <span id="currentPlayer">흑돌</span>
+                <span class="ai-mode-badge">(AI 대전 모드)</span>
+            </div>
+            <button id="resetBtn" class="reset-btn">게임 재시작</button>
+        </div>
+        <div id="board" class="board"></div>
+        <div id="message" class="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
